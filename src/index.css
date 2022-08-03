@@ -90,6 +90,7 @@
  .project_links {
      margin-left: auto;
      margin-right: auto;
+     padding: 30px;
      /* margin-top: -20px; */
  }
 
@@ -133,8 +134,8 @@
  /* __________________About.css_______________ */
 
  .about_container {
-     /* background-color: rgba(6, 12, 13, 0.952); */
-     margin-top: -60px;
+     background-color:#202020;
+     margin-top: -50px;
      height: 100%;
  }
 
@@ -145,13 +146,13 @@
      text-decoration: underline pink;
      margin-top: 25px;
      margin-left: 50px;
-     color: black;
+     color: white;
  }
 
  .about_me h2 {
      font-family: 'Courier New', Courier, monospace;
      margin-left: 50px;
-     color: black;
+     color:white;
  }
 
  .experience_container h1 {
@@ -160,7 +161,7 @@
      text-decoration: underline pink;
      margin-top: 25px;
      margin-left: 50px;
-     color: black;
+     color: white;
  }
 
  .company_name {
@@ -168,13 +169,13 @@
      font-family: 'Courier New', Courier, monospace;
      font-weight: bolder;
      font-size: 30px;
-     color: black;
+     color: white;
  }
 
  .experience_container h2 {
      font-family: 'Courier New', Courier, monospace;
      margin-left: 50px;
-     color: black;
+     color:white;
 
  }
 
@@ -185,7 +186,7 @@
      margin-top: 25px;
      margin-left: 50px;
      text-decoration: underline pink;
-     color: black;
+     color: white;
  }
 
  .skills_column {
@@ -201,7 +202,7 @@
 
  .skill_name {
      margin-left: 40px;
-     color: rgb(1, 28, 43);
+     color: white;
      font-size: 25px;
  }
 
@@ -212,11 +213,12 @@
      text-decoration: underline pink;
      margin-left: 50px;
      margin-top: 25px;
-     color: black;
+     color: white;
  }
 
  .image_container {
      margin-top: 30px;
+     padding: 20px;
  }
 
  .hobbies {
