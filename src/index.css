@@ -1,13 +1,368 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ /* __________contact___________ */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ .contact_container {
+     margin-top: -30px;
+     height: auto;
+ }
+
+ .id_column {
+     background-color: #2e4975;
+ }
+
+ .tag {
+     text-decoration: underline pink;
+     font-weight: bolder;
+     margin-top: 15px;
+     font-size: 40px;
+ }
+
+ .id_column h1 {
+     color: whitesmoke;
+     font-family: 'Courier New', Courier, monospace;
+     margin-left: 30px;
+ }
+
+ .info h1 {
+     color: whitesmoke;
+     font-family: 'Courier New', Courier, monospace;
+     margin-left: 45px;
+     margin-top: 15px;
+     font-size: 30px;
+
+ }
+
+ .details {
+     background-color: #bbc8dd;
+ }
+
+ .heading {
+     margin-top: 15px;
+     text-decoration: underline pink;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+     margin-left: 30px;
+     font-size: 40px;
+ }
+
+ .contact_details input {
+     border: none;
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+     color: black;
+     letter-spacing: 1px;
+     margin-bottom: 30px;
+     border-bottom: 1px solid black;
+     background: transparent;
+     margin-left: 30px;
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+ .submit_btn {
+     width: 30%;
+     margin-left: 35%;
+     font-family: 'Courier New', Courier, monospace;
+     margin-bottom: 30px;
+ }
+
+
+
+ /* ----------PortFolio--------- */
+
+ .portfolio_container {
+     background-color: rgb(0, 0, 0, 0.467);
+     margin-top: -30px;
+     height: 100%;
+
+ }
+
+ .Projects h1 {
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     text-decoration: underline pink;
+     margin-bottom: 30px;
+     margin-left: 3%;
+     font-size: 40px;
+     margin-top: 20px;
+ }
+
+
+ .project_links {
+     margin-left: auto;
+     margin-right: auto;
+     /* margin-top: -20px; */
+ }
+
+ .portfolio_images1 {
+    margin-left: 2px;
+     box-shadow: 5px 5px 5px 5px lightgray;
+ }
+
+ .portfolio_images2 {
+    margin-left: 70px;
+     box-shadow: 5px 5px 5px 5px lightgray;
+ }
+
+ .portfolio_images3 {
+     margin-left: 130px;
+     box-shadow: 5px 5px 5px 5px lightgray;
+ }
+
+ .img_name {
+     color: whitesmoke;
+     position: absolute;
+     top: 17px;
+     left: 10px;
+ }
+
+ .img_name2 {
+     color: whitesmoke;
+     position: absolute;
+     top: 17px;
+     left: 80px;
+ }
+
+ .img_name3 {
+     color: whitesmoke;
+     position: absolute;
+     top: 17px;
+     left: 160px;
+ }
+
+
+ /* __________________About.css_______________ */
+
+ .about_container {
+     /* background-color: rgba(6, 12, 13, 0.952); */
+     margin-top: -60px;
+     height: 100%;
+ }
+
+
+ .about_me h1 {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 50px;
+     text-decoration: underline pink;
+     margin-top: 25px;
+     margin-left: 50px;
+     color: black;
+ }
+
+ .about_me h2 {
+     font-family: 'Courier New', Courier, monospace;
+     margin-left: 50px;
+     color: black;
+ }
+
+ .experience_container h1 {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 45px;
+     text-decoration: underline pink;
+     margin-top: 25px;
+     margin-left: 50px;
+     color: black;
+ }
+
+ .company_name {
+     margin-left: 10px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+     font-size: 30px;
+     color: black;
+ }
+
+ .experience_container h2 {
+     font-family: 'Courier New', Courier, monospace;
+     margin-left: 50px;
+     color: black;
+
+ }
+
+ .skills_container {
+     font-family: 'Courier New', Courier, monospace;
+     /* font-weight: 50px; */
+     font-size: 45px;
+     margin-top: 25px;
+     margin-left: 50px;
+     text-decoration: underline pink;
+     color: black;
+ }
+
+ .skills_column {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .skills_icon {
+     font-size: 180px;
+     color: rgb(113, 222, 191);
+     top: 8px;
+ }
+
+ .skill_name {
+     margin-left: 40px;
+     color: rgb(1, 28, 43);
+     font-size: 25px;
+ }
+
+
+ .Hobbies_container {
+     font-size: 40px;
+     font-family: 'Courier New', Courier, monospace;
+     text-decoration: underline pink;
+     margin-left: 50px;
+     margin-top: 25px;
+     color: black;
+ }
+
+ .image_container {
+     margin-top: 30px;
+ }
+
+ .hobbies {
+     margin-left: 30%;
+     color: rgb(237, 144, 144);
+     margin-top: 3px;
+     font-size: 25px;
+ }
+
+ .Images {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .hobbies1 {
+     margin-left: 42%;
+     color: rgb(237, 144, 144);
+     margin-top: 10px;
+     font-size: 25px;
+ }
+
+ /* ____________Info.css____________________ */
+
+ .info_container {
+     margin-top: -20px;
+     height: 100%;
+ }
+
+ .bg {
+
+     /* height: 50%;  */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: blur(2px);
+
+ }
+
+ .myname {
+     /* margin-left: auto; */
+     /* margin-right: auto; */
+     position: absolute;
+     top: 10px;
+     left: 25%;
+     margin-top: 80px;
+ }
+
+ .myname h1 {
+     color: whitesmoke;
+     font-family: poiret one;
+     margin-left: 50px;
+     /* font-size: 40px; */
+     margin-top: -18px;
+ }
+
+ .me {
+     font-size: 65px;
+     margin-left: 200px;
+     margin-top: -10px;
+ }
+
+ .my_img {
+     position: absolute;
+     top: -20em;
+     left: 41em;
+     border-radius: 150px;
+     box-shadow: 8px 5px 8px 5px rgb(102, 95, 95);
+ }
+
+
+ /* ___________Header___________ */
+
+
+ .Header_div {
+     width: 100%;
+     height: 5rem;
+     display: grid;
+     background-color: black;
+     grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+ }
+
+ .head_name {
+     display: grid;
+     color: whitesmoke;
+     font-size: 28px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     grid-column: 2/3;
+     justify-content: start;
+     align-items: center;
+ }
+
+ .Nav_links {
+     grid-column: 4/5;
+ }
+
+ .Nav_links ul {
+     height: 5rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 22px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .header_link {
+     color: whitesmoke;
+     /* border: 2px solid whitesmoke; */
+ }
+
+ .header_link:hover {
+     background-color: slategray;
+ }
+
+
+
+ /* ________________________ */
+/* 
+ @media  (max-width:768px) {
+    .about_me h1{
+      font-size: 30px;
+      margin-left: 160px;
+     
+    }
+    .about_me h2{
+        font-size: 20px;
+        margin-left: 170px;
+    }
+    .experience_container h1 {
+        font-size: 30px;
+        margin-left: 160px;
+    }
+    .company_name{
+        margin-left: 160px;
+        font-size: 20px;
+    }
+    .experience_container h2{
+        font-size: 15px;
+        margin-left: 160px;
+    }
+    .skills_icon {
+        width: 100%;
+        font-size: 80px;
+    
+    }
+
+ } */
