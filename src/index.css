@@ -76,7 +76,7 @@
 
  }
 
- .Projects h1 {
+ .h1_portfolio {
      color: white;
      font-family: 'Courier New', Courier, monospace;
      text-decoration: underline pink;
@@ -243,92 +243,73 @@
  /* ____________Info.css____________________ */
 
  .info_container {
-     margin-top: -20px;
-     height: 100%;
- }
-
- .bg {
-
-     /* height: 50%;  */
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     filter: blur(2px);
-
- }
-
- .myname {
-     /* margin-left: auto; */
-     /* margin-right: auto; */
-     position: absolute;
-     top: 10px;
-     left: 25%;
-     margin-top: 80px;
- }
-
- .myname h1 {
-     color: whitesmoke;
-     font-family: poiret one;
-     margin-left: 50px;
-     /* font-size: 40px; */
-     margin-top: -18px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Xx-MRinbTy8M9QabkDFNcttjn2z2Jb2AkQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-top: -20px;
+     height: 70vh;
  }
 
  .me {
-     font-size: 65px;
-     margin-left: 200px;
-     margin-top: -10px;
+    color: whitesmoke;
+     font-size: 4rem;
+     text-align: center;
+ }
+ 
+ .tag{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5rem;
  }
 
- .my_img {
+ /* .my_img {
      position: absolute;
      top: -20em;
      left: 41em;
      border-radius: 150px;
      box-shadow: 8px 5px 8px 5px rgb(102, 95, 95);
- }
+ } */
 
 
  /* ___________Header___________ */
 
 
- .Header_div {
-     width: 100%;
-     height: 5rem;
+ nav {
      display: grid;
      background-color: black;
-     grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
+     grid-template-columns: 8rem 1.5fr 0.5fr  2.5fr ;
      position: sticky;
      top: 0;
      z-index: 1;
+     height: 7rem;
  }
 
- .head_name {
-     display: grid;
+ .name_div{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center ;
+    align-items:center;
+ }
+
+ .name_div h1 {
      color: whitesmoke;
-     font-size: 28px;
+     font-size: 30px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     grid-column: 2/3;
-     justify-content: start;
-     align-items: center;
  }
 
- .Nav_links {
-     grid-column: 4/5;
- }
-
- .Nav_links ul {
-     height: 5rem;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     font-size: 22px;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ .Nav_links{
+   grid-column: 4/5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
  }
 
  .header_link {
-     color: whitesmoke;
-     /* border: 2px solid whitesmoke; */
+    color: whitesmoke;
+     font-size: 22px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
  .header_link:hover {

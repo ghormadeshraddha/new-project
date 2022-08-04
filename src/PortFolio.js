@@ -7,9 +7,8 @@ function PortFolio() {
         <>
             <div className="portfolio_container" id="portfolio">
 
-                <Row className="Projects">
-                    <h1>PortFolio</h1>
-                </Row>
+                    <h1 className="h1_portfolio">PortFolio</h1>
+              
 
                 <Row className="project_links">
                     <Col>
